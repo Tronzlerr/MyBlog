@@ -1,22 +1,22 @@
 ---
-title: "【年度游戏总结】2019-2023（更新中）"
+title: "【游戏列表】游玩记录"
 date: 2023-12-07T19:49:03+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["游戏"]
-author: "Alan-One"
+author: "Me"
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "每年末记录一下当年玩的游戏"
+description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: true
+disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: false
+searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -30,8 +30,8 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/Tronzlerr/MyBlog/content"
-    Text: "编辑" # edit text
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
 

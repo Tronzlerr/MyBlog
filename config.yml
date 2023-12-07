@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: ENCOM一号机
+  description: "The summer memory that just never dies"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "ENCOM一号机"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "你好，这里是JA的个人站点"
+    Content: The summer memory that just never dies
 
   socialIcons:
     - name: twitter
@@ -115,16 +115,24 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20
     - identifier: example
-      name: example.org
-      url: https://example.org
+      name: Wordpress博客
+      url: https://ja-307020.net/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -136,3 +144,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
